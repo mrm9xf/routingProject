@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Import Angular Scripts -->
+    <script src="js/libraries/angular.1.6.4.js"></script>
+    <script src="js/libraries/angular-route.1.6.4.js"></script>
+
+    <!-- Import the angular app -->
+    <script src="js/routingProjectApp.js"></script>
+
+    <!-- Import the controllers -->
+    <script src="js/controllers/MainCtrl.js"></script>
+  </head>
+  <body ng-app="routingProjectApp" ng-controller="MainCtrl">
+    <p><a href="#/">Main</a></p><p><a href="#/second">Second</a></p>
+    <div ng-view></div>
+  </body>
+</html>
